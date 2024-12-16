@@ -1,0 +1,446 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18.5px;
+}
+
+/* body {
+    background-color: rgba(0, 0, 0, 0.973);
+} */
+
+
+body {
+    background-color: whitesmoke;
+}
+
+
+#wrapper {
+    max-width: 1303px;
+    /* max-height: auto; */
+    /* background-color: rgb(39, 62, 160); */
+    /* background-color: rgb(30, 51, 143); */
+    background-color: rgb(85, 105, 199);
+    /* border: 1px solid rgb(68, 65, 255); */
+    border: 3px double rgb(199, 199, 255);
+    margin-left: auto;/*марджин левт и райн создают эффект равномерного распределения содержимого по середине. */
+    margin-right: auto;
+    /* background-color: darkblue; */
+    /* background-color: beige; */
+    /* background-color: black; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 15px;
+    box-shadow: 0px 0px 50px 1px rgb(197, 150, 241);
+}
+
+
+header {
+    /* background-color: #c9c5b1; */
+    background-color: rgb(65, 85, 173);
+    max-width: 1500px;
+    /* max-height: auto; */
+    margin-top: 0px;
+    display: flex;
+    border-bottom: 3px solid rgb(221, 91, 91);
+}
+
+#logo {
+    color: pink;
+    margin: 20px;
+    margin-left: 50px;
+    padding-left: 10px;
+    /*!!! color: lightskyblue; */
+    /* font-family:'Times New Roman', Times, serif; */
+    border-left: 3px dotted rgb(199, 199, 255);
+    border-radius: 10px;
+}
+
+nav {
+    /* width: 1000px; */
+    margin-right: 50px;
+    margin-top: 25px;
+    display: inline;
+    text-align: center;
+    margin-left: 200px;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+}
+
+nav a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-left: 80px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    /* color: magenta; */
+    /* color: rgb(170, 28, 170); */
+    color: magenta;
+}
+
+.nav-items {
+    color: pink;
+}
+
+
+main {
+    /* border: 1px dotted green; */
+    /* max-width: 1500px; */
+    /* max-height: auto; */
+    display: flex;
+    flex-grow: 1;
+    flex-direction: column;
+}
+
+
+#aboutme {
+    color: pink;
+    margin-top: 5px;
+    margin-left: 0px;
+    width: 1300px;
+    font-size: 20px;
+    /* border: 1px dashed purple; */
+    display: flex;
+    flex-direction: row;
+    border-bottom: 3px solid rgb(221, 91, 91);
+    padding-bottom: 20px;
+}
+
+#aboutme h3 {
+    margin: 0px;
+    padding: 0px;
+    width: 100px;
+    margin-left: 10px;
+    /* border-bottom: 3px dashed blue; */
+    /* border-right: 3px dashed blue; */
+    border-radius: 20px;
+
+}
+
+#aboutme .text1 {
+    width: 650px;
+    margin-left: 30px;
+    line-height: 1.5em;
+    Color: rgb(241, 225, 225);
+}
+
+
+
+#aboutme ul {
+    margin: 0px;
+    padding-left: 25px;
+    padding-bottom: 10px;
+    list-style-image: url(/img/point.png);
+}
+
+#aboutme img {
+    width: 200px;
+    margin-left: 80px;
+}
+
+
+#myprojects {
+    /* margin-top: 0px;
+    margin-left: 0px; */
+    color: pink;
+    margin-top: 10px;
+    width: 1300px;
+    display: flex;
+    flex-direction: column;
+    /* flex-direction: row;
+    justify-content: space-evenly; */
+    border-bottom: 3px solid rgb(221, 91, 91);
+    margin-bottom: 10px;
+    padding-bottom: 70px;
+}
+
+
+#card_pics {
+    display: flex;
+    flex-direction: row;
+    margin-left: 15px;
+}
+
+.site_card {
+    margin: 10px;
+    border: 7px solid rgba(136, 5, 197, 0.74);
+    border-radius: 10px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 10px 10px 10px -8px black;
+}
+
+.site_card img {
+    width: 393px;
+    height: 393px;
+    margin-left: -2px;
+    margin-top: -2px;
+    padding: 0px;
+    border-radius: 10px;
+}
+
+.site_card .button {
+    margin-top: 10px;
+    text-align: center;
+    width: 150px;
+    height: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px double blueviolet;
+    background-color: pink;
+    border-radius: 50px;
+
+    background-image: linear-gradient(to right, hotpink 50%, darkviolet 50%);
+    background-size: 200%;
+    transition: 0.4s ease-out;
+
+}
+
+.site_card .button:hover {
+    background-position: right;
+    text-decoration: underline;
+    /* underline-color: pink; */
+}
+
+.button a {
+    text-decoration: none;
+    /* color: white; */
+    color: white;
+}
+
+/* #card_pics .link {
+    flex-direction: row;
+    width: 20px;
+    height: 20px;
+    margin-left: auto;
+    margin-right: auto;
+
+} */
+
+/* .button a:hover {
+    background-position: right;
+    color: maroon;
+} */
+
+.text2 {
+    margin-left: 30px;
+}
+
+.text2 h3 {
+    font-size: 21px;
+    margin: 0px;
+    padding: 0px;
+    /* padding-left: 20px; */
+    margin-top: 10px;
+    /* margin-left: 10px; */
+    width: 130px;
+    margin-left: 10px;
+    /* border-bottom: 3px dashed blue; */
+    /* border-right: 3px dashed blue; */
+    border-radius: 20px;
+
+}
+
+#mycontacts {
+    width: 1300px;
+    /* border: 3px solid red; */
+    border-bottom: 3px solid rgb(221, 91, 91);
+}
+
+
+#mycontacts .communication {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+#mycontacts .writeme {
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    Color: pink;
+}
+
+#mycontacts .contactme {
+    /* border: 1px solid green; */
+    width: 300px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+#mycontacts h3 {
+    text-align: center;
+    font-size: 21px;
+    color: rgb(255, 236, 255);
+    width: 185px;
+    margin-left: auto;
+    margin-right: auto;
+    /* border-bottom: 3px dashed blue; */
+    /* border-right: 3px dashed blue; */
+    border-radius: 20px;
+}
+
+
+.writeme h4 {
+    text-align: center;
+}
+
+/* .writeme .form-item{
+    padding-bottom: 10px;
+} */
+
+.writeme p {
+    margin: 0px;
+    padding: 0px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.writeme .contact-items {
+    width: 300px;
+    padding-top: 10px;
+    margin-top: 10px;
+    border-radius: 15px;
+    /* text-align: center; */
+    /* color: blue; */
+    background-color: rgb(255, 236, 255);
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.contactme #cat {
+    width: 200px;
+    margin-left: 30px;
+    margin-top: 15px;
+}
+
+
+.writeme .who {
+    text-decoration: underline;
+}
+
+.contact-items::placeholder {
+    Color: rgb(65, 85, 173);
+    font-style: italic;
+    /* border: 1px solid black; */
+}
+
+.writeme button {
+    Color: rgb(65, 85, 173);
+}
+
+#mycontacts {
+    background-image: url(/img/background_picture.jpg);
+    background-repeat: no-repeat;
+    width: 1300px;
+}
+
+
+.contactme {
+    margin-top: 50px;
+    margin-left: 100px;
+    padding-left: 10px;
+    display: flex;
+    flex-direction: column;
+    Color: pink;
+
+}
+
+.contactme h4 {
+    color: pink;
+    text-align: center;
+    margin-top: 21px;
+}
+
+
+.contactme .set1 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.set1 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+/* class="contact-items" */
+
+.contactme .set2 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.set2 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+.contactme .set3 {
+    width: 300px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.set3 img {
+    width: 30px;
+    height: 30px;
+    margin-top: 15px;
+    margin-right: 20px;
+}
+
+
+.contactme a {
+    color: pink;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+.contactme a:hover {
+    text-decoration: underline;
+    /* color: purple;*/
+    color: magenta;
+}
+
+.form_item button:hover {
+    background-color: magenta;
+    color: white;
+}
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    height: 100px;
+    background-color: rgb(65, 85, 173);
+    Color: pink;
+}
+
+footer p, a {
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
+}
+
+footer a {
+    margin-top: 11px;
+    color: pink;
+}
+
+footer img {
+    margin-right: 10px;
+}
