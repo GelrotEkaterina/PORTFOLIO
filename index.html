@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ПОРТФОЛИО Е.А.</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz@14..32&family=Open+Sans&family=Rubik&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="wrapper"><!-- создание основной области работы, сам макет сайта-->
+        <header>
+            <h1 id="logo">ПОРТФОЛИО</h1>
+            <nav>
+                <a class="nav-items" href="#aboutme">ОБО МНЕ</a>
+                <a class="nav-items" href="#myprojects">Мои работы</a>
+                <a class="nav-items" href="#mycontacts">Связаться со мной</a>
+            </nav>
+        </header>
+        <main>
+            <div id="aboutme">
+                <div class="text1">
+                    <h3>Обо мне</h3>
+                <p>Добро пожаловать на мой сайт-портфолио. Я Гельрот Екатерина - студентка первого курса специальности 09.02.07 (Информационные системы и программирование), а также начинающий фронтенд-разработчик.</p>
+                <ul>
+                    <li>Оптимизирую и реализую вашу идею в точности до 100%;</li>
+                    <li>Приоритезирую и выполняю работу раньше поставленного срока;</li>
+                    <li>Ежедневно развиваю свои назыки, практикуя хард и софт скиллы;</li>
+                    <li>Полностью вовлечена в проекты и заинтересована в работе с вами.</li>
+                </ul></div>
+                <img src="img/idcard.svg" alt="idcard">
+                <img src="img/gadgets.svg" alt="gadgets">
+            </div>
+            <div id="myprojects">
+                <div class="text2"><h3>Мои работы</h3></div>
+                <div id="card_pics">
+                    <div class="site_card">
+                    <img src="img/myfirstsite.png" alt="MFirstS">
+                    <p>Мой первый сайт</p>
+
+                    <div class="button"><a href="https://gelrotekaterina.github.io/myfirst_site/" target="_blank">Посмотреть</a></div>
+                </div>
+                <div class="site_card">
+                    <img src="img/melodia.png" alt="Melodia">
+                    <p>ЖК Мелодия</p>
+
+                    <div class="button"><a href="https://gelrotekaterina.github.io/ZHK_Melodia/" target="_blank">Посмотреть</a></div>
+                </div>
+                <div class="site_card">
+                    <img src="img/bees_site.png" alt="HoneySite">
+                    <p>Пчёлы</p>
+
+                    <div class="button"><a href="https://gelrotekaterina.github.io/Bees/" target="_blank">Посмотреть</a></div></div>
+                </div>
+            </div>
+            <div id="mycontacts">
+                <h3>Связаться со мной</h3>
+                <div class="communication">
+                    <div class="writeme">
+                        <h4>Написать мне:</h4>
+                        <p class="who">Кому: GEkaterina@gmail.com</p>
+                        <p class="who">От кого:</p>
+
+                        <div class="form_item">
+                            <label for="name">Ваше ФИО*</label><br>
+                            <input name="name" id="name" type="text" placeholder="Ваше ФИО" required>
+                        </div>
+
+                        <div class="form_item">
+                            <label for="email">Ваша почта*</label><br>
+                            <input name="email" id="email" type="email" placeholder="Ваша почта" required></div>
+
+                        <!-- <div class="form_item">
+                        <textarea class="contact-items" name="textarea" id="textarea" rows="5" placeholder="Ваш запрос" required></textarea></div> -->
+
+                        <div class="form_item">
+                            <label for="textarea">Ваш запрос*</label><br>
+                            <textarea id="textarea" cols="30" rows="10" required></textarea>
+                        </div>
+
+                        <div class="form_item">
+                        <button class="contact-items">Отправить</button>
+                        </div>
+                    </div>
+                    <div class="contactme">
+                        <h4>Мои социальные сети:</h4>
+                        <div class="set1">
+                            <img src="img/telegram.png" alt="telegram">
+                            <a href="#" target="_blank">@guelrote</a>
+                        </div>
+                        <div class="set2">
+                            <img src="img/mail.png" alt="email">
+                            <a href="#" target="_blank">GEkaterina@gmail.com</a>
+                        </div>
+                        <div class="set3">
+                            <img src="img/vk.png" alt="vk">
+                            <a href="#" target="_blank">Gelrot Ekaterina</a>
+                        </div>
+                        <img id="cat" src="img/maxwell_cat.gif" alt="cat_gif">
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Гельрот Е.А. 2024</p>
+            <a href="https://github.com/GelrotEkaterina" target="_blank"><img src="img/github_pic.svg" alt="Github">GelrotEkaterina</a>
+        </footer>
+    </div>
+
+    
+</body>
+</html>
